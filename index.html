@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Devoir - Développement Durable</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                margin: 0;
+                animation: fadeIn 1s;
+                background-color: #f5f5f5;
+                font-family: "Inconsolata", monospace;
+            }
+
+            img {
+                width: 60%;
+                animation: slideRight 3s;
+            }
+
+            a {
+                text-decoration: underline;
+                color: black;
+            }
+
+            h1 {
+                font-size: 5em;
+            }
+
+            footer {
+                text-align: center;
+                padding: 3em;
+            }
+
+            .container {
+                min-height: 100vh;
+                display: grid;
+                grid-template-columns: 1fr 50vmax;
+                align-items: center;
+                border-bottom: #4f9d2f 2px solid;
+            }
+
+            .green {
+                background-color: #4f9d2f;
+                color: white;
+                padding: 2em;
+                width: 80%;
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes slideRight {
+                from {
+                    translate: -30px;
+                }
+
+                to {
+                    translate: 0px;
+                }
+            }
+
+            #top {
+                background-color: #4f9d2f;
+                /* background-image: url("bg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover; */
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top" class="container">
+            <img
+                src="hand.svg"
+                alt="Une main au centre avec des arbres en arrière plan"
+            />
+            <div class="green">
+                <h1>Devoir - Développement Durable</h1>
+                <h3>Matteo</h3>
+                <p>Ce site est optimlisé et ne fait envrion 17ko</p>
+                <a href="#section1">Voir les réponses ></a>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+                fill="#4f9d2f"
+                fill-opacity="1"
+                d="M0,128L48,122.7C96,117,192,107,288,128C384,149,480,203,576,218.7C672,235,768,213,864,197.3C960,181,1056,171,1152,170.7C1248,171,1344,181,1392,186.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+            ></path>
+        </svg>
+
+        <div id="section1" class="container">
+            <div class="green">
+                <h2>Question 1 :</h2>
+                <p>
+                    Votre entreprise a décidé d’acquérir une solution SaaS pour
+                    son portail de statistiques auprès d’un éditeur et vous
+                    devez rédiger dans l’appel d’offre la partie sur les
+                    exigences techniques en termes de sobriété numérique. Listez
+                    les critères qui vous semblent non négociables sous forme de
+                    user stories fictives. (exemple : en tant qu’éditeur je dois
+                    m’assurer que ma solution est hébergée sur un serveur
+                    localisé en France)
+                </p>
+                <a href="#section2">Question suivante ></a>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi, recusandae. Debitis repellat, vero sint laudantium,
+                enim eius quo rerum praesentium iure facilis a. Recusandae
+                explicabo reiciendis, necessitatibus magni doloribus inventore?
+            </p>
+        </div>
+
+        <div id="section2" class="container">
+            <div class="green">
+                <h2>Question 2 :</h2>
+                <p>
+                    Quels éléments du cours allez-vous utiliser dans votre
+                    alternance (pour les personnes qui ont trouvé) et/ou votre
+                    vie étudiante (pour les personnes en recherche) ?
+                </p>
+                <a href="#section3">Question suivante ></a>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi, recusandae. Debitis repellat, vero sint laudantium,
+                enim eius quo rerum praesentium iure facilis a. Recusandae
+                explicabo reiciendis, necessitatibus magni doloribus inventore?
+            </p>
+        </div>
+
+        <div id="section3" class="container">
+            <div class="green">
+                <h2>Question 3</h2>
+                <p>
+                    Comment évaluez-vous la maturité de sobriété numérique de
+                    votre organisation ? (ou d’une autre organisation si pas
+                    encore d’alternance). Détaillez les actions déjà mises en
+                    œuvre et ce qu’il faudrait selon vous améliorer.
+                </p>
+                <a href="#section4">Question suivante ></a>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi, recusandae. Debitis repellat, vero sint laudantium,
+                enim eius quo rerum praesentium iure facilis a. Recusandae
+                explicabo reiciendis, necessitatibus magni doloribus inventore?
+            </p>
+        </div>
+
+        <div id="section4" class="container">
+            <div class="green">
+                <h2>Question 4</h2>
+                <p>Comment imaginez-vous le numérique en 2050 ?</p>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi, recusandae. Debitis repellat, vero sint laudantium,
+                enim eius quo rerum praesentium iure facilis a. Recusandae
+                explicabo reiciendis, necessitatibus magni doloribus inventore?
+            </p>
+        </div>
+
+        <footer>
+            <a href="#top">Revenir en haut de la page ^</a>
+        </footer>
+    </body>
+</html>
