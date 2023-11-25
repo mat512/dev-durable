@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    animation: fadeIn 1s;
+    background-color: #f5f5f5;
+    font-family: "Inconsolata", monospace;
+}
+
+#top {
+    background: linear-gradient(to bottom, #2eae63, #4f9d2f);
+    color: white;
+}
+
+img {
+    width: 60%;
+    margin-left: -10px;
+
+    animation: slideIn 3s;
+}
+
+h1 {
+    font-size: 4vmax;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 10px;
+
+    border-bottom: #4f9d2f 2px solid;
+}
+
+.green {
+    background-color: #4f9d2f;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 3em;
+}
+
+footer a {
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: rotate(10deg) translate(-10px, 30%);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}

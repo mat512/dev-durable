@@ -4,82 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Devoir - Développement Durable</title>
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
-
-            html {
-                scroll-behavior: smooth;
-            }
-
-            body {
-                margin: 0;
-                animation: fadeIn 1s;
-                background-color: #f5f5f5;
-                font-family: "Inconsolata", monospace;
-            }
-
-            img {
-                width: 60%;
-                animation: slideRight 3s;
-            }
-
-            a {
-                text-decoration: underline;
-                color: black;
-            }
-
-            h1 {
-                font-size: 5em;
-            }
-
-            footer {
-                text-align: center;
-                padding: 3em;
-            }
-
-            .container {
-                min-height: 100vh;
-                display: grid;
-                grid-template-columns: 1fr 50vmax;
-                align-items: center;
-                border-bottom: #4f9d2f 2px solid;
-            }
-
-            .green {
-                background-color: #4f9d2f;
-                color: white;
-                padding: 2em;
-                width: 80%;
-            }
-
-            @keyframes fadeIn {
-                from {
-                    opacity: 0;
-                }
-
-                to {
-                    opacity: 1;
-                }
-            }
-
-            @keyframes slideRight {
-                from {
-                    translate: -30px;
-                }
-
-                to {
-                    translate: 0px;
-                }
-            }
-
-            #top {
-                background-color: #4f9d2f;
-                /* background-image: url("bg.jpg");
-                background-repeat: no-repeat;
-                background-size: cover; */
-                color: white;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div id="top" class="container">
@@ -87,9 +12,8 @@
                 src="hand.svg"
                 alt="Une main au centre avec des arbres en arrière plan"
             />
-            <div class="green">
+            <div>
                 <h1>Devoir - Développement Durable</h1>
-                <h3>Matteo</h3>
                 <p>Ce site est optimlisé et ne fait envrion 17ko</p>
                 <a href="#section1">Voir les réponses ></a>
             </div>
@@ -168,12 +92,17 @@
                 <h2>Question 4</h2>
                 <p>Comment imaginez-vous le numérique en 2050 ?</p>
             </div>
+            <div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi, recusandae. Debitis repellat, vero sint laudantium,
-                enim eius quo rerum praesentium iure facilis a. Recusandae
-                explicabo reiciendis, necessitatibus magni doloribus inventore?
+                Je pense que le numérique en 2050 sera fortement axé sur la responsabilité environnementale, avec une utilisation accrue des énergies renouvelables. Les data centers joueront un rôle majeur, en exploitant leur chaleur dégagée de manière ingénieuse, comme l'exemple d'un data center chauffant la piscine olympique pour les JO de Paris 2024 à Saint-Denis.
             </p>
+            <p>
+                Cependant, le défi principal réside dans la gestion exponentielle des données. Malgré les avancées technologiques, il est probable que la demande continue de croître, et il sera essentiel de mettre en place des solutions efficaces pour gérer cette masse de données tout en maintenant la sobriété numérique.
+            </p>
+            <p>
+                L'éducation à la sobriété numérique sera un aspect crucial. Les individus devront être formés et sensibilisés pour adopter des comportements numériques plus responsables. Cela contribuera à atténuer l'impact environnemental tout en favorisant une utilisation plus consciente et durable du numérique.
+            </p>
+        </div>
         </div>
 
         <footer>
