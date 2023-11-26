@@ -12,11 +12,11 @@ body {
 }
 
 #top {
-    background: linear-gradient(to bottom, #2eae63, #4f9d2f);
+    background: linear-gradient(to bottom, #2c9959, #31611f);
     color: white;
 }
 
-img {
+#top img {
     width: 60%;
     margin-left: -10px;
 
@@ -32,21 +32,25 @@ a {
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 60vh;
     padding: 10px;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: 10px;
+}
 
-    border-bottom: #4f9d2f 2px solid;
+.container:nth-child(even) {
+    background-color: white;
 }
 
 .green {
-    background-color: #4f9d2f;
+    background-color: #31611f;
     color: white;
+    
     padding: 20px;
+    border-radius: 15px;
 }
 
 footer {
